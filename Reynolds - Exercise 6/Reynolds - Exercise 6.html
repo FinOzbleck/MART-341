@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bonding of Friends and Family</title>
+        <style>
+            body {background-color: antiquewhite; text-align: center; font-family: "PT Serif", "Merriweather", "Shippori Antique B1", "Shippori Antique", sans-serif, serif;}
+            .container {
+                background-color: beige;
+                width: 600px;
+                margin: auto;
+                padding: 20px;
+                border: 1px solid black;
+            }
+            .main-content {
+                font-family: sans-serif;
+                font-size: 1em;
+                margin: 0.5em;
+                background-color: lightblue;
+                text-indent: 1.5em;
+                line-height: 1.5em;
+            }
+            .main-contentp:first-child::first-letter {
+                font-family: "PT Serif", serif;
+                font-size: 2.5em;
+                font-weight: bold;
+            }
+            .main-contentp:first-child::first-line {
+                color: blue;
+            }
+            .main-contentp:first-child {
+                text-indent: 0;
+            }
+            .change-01 {
+                font-size: 75%;
+            }
+            .change-02 {
+                font-size: 125%;
+            }
+            .change-03 {
+                font-size: 150%;
+            }
+            .parent-element {
+                min-height: 10em;
+            }
+            .button {
+                font-size: 1.5em;
+                color: lavender;
+                font-weight: 700;
+                background-color: darkslateblue;
+                border-color: #8f8b8b #383636 #383636 #8f8b8b;
+                border-width: 10px 17px 17px 10px;
+                border-style: dashed;
+                position: relative;
+                margin: auto;
+                top: 1em;
+                padding: 1em;
+                width: 9em;
+                text-align: center;
+            }
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+            .button:hover {
+                color: #383636;
+                font-style: italic;
+            }
+            .button:active {
+                color: #fff;
+                background-color: darkred;
+                border-color: #383636 #8f8b8b #8f8b8b #383636;
+                border-width: 13px 10px 10px 13px;
+            }
+            #heading-1 {
+                font-family: 'PT Serif', 'Merriweather';
+            }
+            #heading-4 {
+                font-family: 'Merriweather', 'PT Serif';
+            }
+            #heading-5 {
+                font-family: 'Shippori Antique B1', 'Shippori Antique';
+            }
+            #heading-6 {
+                font-family: 'Shippori Antique', 'Shippori Antique B1';
+            }
+            .p1 {
+                font-family: 'PT Serif', 'Merriweather';
+                font-size: 24px;
+            }
+            .p2 {
+                font-family: 'Merriweather', 'PT Serif';
+                font-size: 50px;
+            }
+            .p3 {
+                font-family: 'Shippori Antique B1', 'Shippori Antique';
+                font-size: 90px;
+            }
+            .p4 {
+                font-family: 'Shippori Antique', 'Shippori Antique B1';
+                font-size: 15px;
+            }
+            .pt-serif-regular {
+                font-family: "PT Serif", serif;
+                font-weight: 200;
+                font-style: normal;
+            }
+            .pt-serif-bold {
+                font-family: "PT Serif", serif;
+                font-weight: 500;
+                font-style: normal;
+            }
+            .pt-serif-regular-italic {
+                font-family: "PT Serif", serif;
+                font-weight: 200;
+                font-style: italic;
+            }
+            .pt-serif-bold-italic {
+                font-family: "PT Serif", serif;
+                font-weight: 500;
+                font-style: italic;
+            }
+            .merriweather-light {
+                font-family: "Merriweather", serif;
+                font-weight: 100;
+                font-style: normal;
+            }
+            .merriweather-regular {
+                font-family: "Merriweather", serif;
+                font-weight: 200;
+                font-style: normal;
+            }
+            .merriweather-bold {
+                font-family: "Merriweather", serif;
+                font-weight: 500;
+                font-style: normal;
+            }
+            .merriweather-black {
+                font-family: "Merriweather", serif;
+                font-weight: 700;
+                font-style: normal;
+            }
+            .merriweather-light-italic {
+                font-family: "Merriweather", serif;
+                font-weight: 100;
+                font-style: italic;
+            }
+            .merriweather-regular-italic {
+                font-family: "Merriweather", serif;
+                font-weight: 200;
+                font-style: italic;
+            }
+            .merriweather-bold-italic {
+                font-family: "Merriweather", serif;
+                font-weight: 500;
+                font-style: italic;
+            }
+            .merriweather-black-italic {
+                font-family: "Merriweather", serif;
+                font-weight: 700;
+                font-style: italic;
+            }
+            .shippori-antique-b1-regular {
+                font-family: "Shippori Antique B1", sans-serif;
+                font-weight: 200;
+                font-style: normal;
+            }
+            .shippori-antique-regular {
+                font-family: "Shippori Antique", sans-serif;
+                font-weight: 200;
+                font-style: normal;
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Shippori+Antique&family=Shippori+Antique+B1&display=swap');
+        </style>
+    </head>
+    <body>
+        <section id="Title" class="main-content">
+            <title>Bonding of Friends and Family</title>
+            <h1 id="heading-1">Bonding of Friends and Family</h1><br>
+        </section>
+        <br>
+        <div class="parent-element">
+            <a href="https://archiveofourown.org/users/FinOzbleck/pseuds/FinOzbleck" target="_blank">
+        <div class="button">
+            Press me...<br />
+          <span style="font-size: small; text-transform:uppercase;">(Linking to Author)</span>
+       </div>
+    </a>
+ </div>
+ 
+ 
+        <br>
+        <section id="Author" class="container">
+            <h4 id="heading-4">An in-progress Final Fantasy XV fanfiction written by me.</h4>
+            <h5 id="heading-5">Written on March 5th, 2021</h5>
+            <h6 id="heading-6">Excerpt from the first chapter.</h6>
+        </section>
+        <br>
+        <section id="Exerpt" class="container">
+            <p class="p1">“With all due respect, my king, why must I be the one to accompany Prince Nyxis on his journey? Wouldn’t one of my older siblings be better suited?” she spoke quietly, her voice even. She kept a calm and composed demeanor, a little something she had been taught, mimicked and learned from her father. “By no means am I suited to be his adviser, sir. I am a Glaive, trained and duty bound to protect you.”</p>
+            <br>
+            <p class="p2">Noctis gives her an equally leveled look, reciprocating the calm composure she showed. He knew the all too familiar look plastered across young Dahlia’s face, a little something she and her father shared. Ignis had always did the best he could in parenting his children, especially considering his disability. Admittedly, Iggy did have a harder time with Dahlia, the youngest out of four. She resembled her father remarkably well, both in personality and for the most part in looks. Sadly, she was the sickest and the weakest out of all four of his children, needing his constant attention.</p>
+            <br>
+            <p class="p3">Yet, Dahlia had a remarkable thirst to prove herself and through her sheer force of will and determination, she had become his best assassin. Her efficiency and learned skills from Ignis combined with her skills in blending into her environment and natural talent in magic and magic-less combat gave her an advantage and the best chances of survival on her assassin missions. However, at Iggy’s rather insistent request, Noctis chose her to accompany his son on his journey. Nyxis needed her protection and guidance more than he needed her to protect him from the shadows on the off chance Gladio and Prompto failed. After all she has the training of the Kingsglaive, something her older siblings severely lacked.</p>
+            <br>
+            <p class="p4">Noctis thought for a second longer before responding, “I chose you over your siblings for a multitude of reasons, Miss Scientia. You have certain qualities and skills that your older siblings lack, but will be beneficial to the survival of my son. At the present moment, I am not at liberty to speak of the other reason behind this, Miss Scientia, but bear in mind that you will know when the time is right. Therefore, I am ordering you to protect the future king for the future of your kingdom.”</p>
+            <br>
+            <p class="p1">Wanting nothing more than to remain at home and simply enjoy being alone to rest for a little bit after having just returned from a mission, Dahlia instead placed a hand over her heart and bent into a bow. “As you wish, my king,” she whispered in the same quiet, calm voice. Not sparing a glance at Noctis, she spun on her heel and marched out, throwing the doors open just wide enough for her to stroll out head held high, taking note of King Noctis’ personal Crownsguard hovering nearby.</p>
+        </section>
+    </body>
+</html>
